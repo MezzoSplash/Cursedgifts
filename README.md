@@ -9,7 +9,14 @@ _________                                .___   ________.__  _____  __
         
 This mod was made by Wobbe & mezzo
 
-## Minecraft 1.12 mod.
+## Welcome to the main github page of CursedGift.
+
+Welcome!
+This is the main page of our mod.
+
+This is our first attempt at a minecraft mod, so it's probably going to take a while.
+
+
 
 A wise man once said:
 > I' m just gonna try some shit
