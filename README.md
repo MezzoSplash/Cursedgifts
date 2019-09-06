@@ -30,4 +30,8 @@ A wise man once said:
 
 We dont know, but it probably has something to do with minecraft and it has some java code so yea that's pretty cool
 
+We're a new studio, currently doing multiple projects next to this mod.
+
+<img src="docs/media/Knightdrive.jpeg" width="324" height="324">
+
 ***Knightdrive©***
