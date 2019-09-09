@@ -7,6 +7,7 @@ import com.mezzo.cursedgift.util.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
+//init model into game
 public class ItemBase extends Item implements IHasModel
 {
 
@@ -23,7 +24,7 @@ public class ItemBase extends Item implements IHasModel
 	
 	@Override
 	public void registerModels() 
-	{
+	{ //render it in inverntory
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 

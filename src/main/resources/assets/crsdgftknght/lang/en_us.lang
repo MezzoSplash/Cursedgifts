@@ -1,1 +1,11 @@
+//Gianni was hier
+
+//add items to list of items
+//ADD TO JSON
+
 item.orb.name=Orb of Ultimate Averageness
+item.test.name=Een testding
+
+
+//add blocks to list of items
+tile.orb_block.name=Orb block of Average

@@ -12,6 +12,11 @@ public class ModItems
 
 	public static final List<Item> ITEMS =new ArrayList<Item>();
 	
+	
+	//add modded items in game
+	//DON"T FORGET TO: Add <name>.json and make entry into EN_US.lang
 	public static final Item ORB = new ItemBase("orb");
+	public static final Item TEST = new ItemBase("test");
+	
 	
 }
