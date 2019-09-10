@@ -5,7 +5,8 @@
 
 item.orb.name=Orb of Ultimate Averageness
 item.test.name=Een testding
+item.magix_dust.name=Magix Dust
 
 
 //add blocks to list of items
-tile.orb_block.name=Orb block of Average
+tile.orb_block.name=Block of Averageness

@@ -17,6 +17,7 @@ public class ModItems
 	//DON"T FORGET TO: Add <name>.json and make entry into EN_US.lang
 	public static final Item ORB = new ItemBase("orb");
 	public static final Item TEST = new ItemBase("test");
+	public static final Item MAGIXDUST = new ItemBase("magix_dust");
 	
 	
 }
