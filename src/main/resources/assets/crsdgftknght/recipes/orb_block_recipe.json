@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "crsdgftknght:orb"
+        }
+    },
+    "result": {
+        "item": "crsdgftknght:orb_block",
+        "count": 1
+    }
+}
