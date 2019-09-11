@@ -6,6 +6,10 @@
 item.orb.name=Orb of Ultimate Averageness
 item.test.name=Een testding
 item.magix_dust.name=Magix Dust
+item.unstable_average_matter.name=Unstable Average Matter
+item.concentrated_unstable_average_matter.name=Concentrated Unstable Average Matter
+item.pure_magic_ingot.name=Pure Magix Ingot
+
 
 
 //add blocks to list of items

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "crsdgftknght:unstable_average_matter"
+        }
+    },
+    "result": {
+        "item": "crsdgftknght:concentrated_unstable_average_matter",
+        "count": 1
+    }
+}

@@ -1,5 +1,6 @@
 package com.mezzo.cursedgift;
 
+import com.mezzo.cursedgift.init.SmeltRecipes;
 import com.mezzo.cursedgift.proxy.CommonProxy;
 import com.mezzo.cursedgift.util.Reference;
 
@@ -30,7 +31,7 @@ public class Main {
 	@EventHandler
 	public static void init(FMLInitializationEvent event)
 	{
-		
+		SmeltRecipes.init();
 	}
 	
 	@EventHandler
