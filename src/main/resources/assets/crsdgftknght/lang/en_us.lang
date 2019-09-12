@@ -8,8 +8,18 @@ item.test.name=Een testding
 item.magix_dust.name=Magix Dust
 item.unstable_average_matter.name=Unstable Average Matter
 item.concentrated_unstable_average_matter.name=Concentrated Unstable Average Matter
-item.pure_magic_ingot.name=Pure Magix Ingot
+
+//Magix
+item.pure_magic_ingot.name=Magix Ingot
 item.magix_sword.name=Magix Sword
+item.magix_shovel.name=Magix Shovel
+item.magix_pickaxe.name=Magix Pickaxe
+item.magix_axe.name=Magix Axe
+item.magix_helmet.name=Magix Helmet
+item.magix_chestplate.name=Magix Chestplate
+item.magix_leggings.name=Magix Leggings
+item.magix_boots.name=Magix Boots
+
 
 
 
