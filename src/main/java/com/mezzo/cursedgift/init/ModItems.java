@@ -38,16 +38,30 @@ public class ModItems
 	public static final Item MAGIXDUST = new ItemBase("magix_dust");
 	public static final Item CONCENTRATEDAVERAGEMATTER = new ItemBase("concentrated_unstable_average_matter");
 	public static final Item AVERAGEMATTER = new ItemBase("unstable_average_matter");
-	public static final Item MAXIGINGOT = new ItemBase("pure_magic_ingot");
+	public static final Item MAXIGINGOT = new ItemBase("magix_ingot");
+	
+	public static final Item MOONSTONE = new ItemBase("moonstone");
+	public static final Item MOONSTONEDUST = new ItemBase("moonstone_dust");
+	
+	public static final Item SUNSTONE = new ItemBase("sunstone");
+	public static final Item SUNSTONEDUST = new ItemBase("sunstone_dust");	
+	
 	
 	
 	//Tools
+	
+	//magix
 	public static final ItemSword MAGIX_SWORD = new ToolSword("magix_sword",MATERIAL_MAGIX);
 	public static final ItemSpade MAGIX_SPADE = new ToolSpade("magix_shovel",MATERIAL_MAGIX);
 	public static final ItemSpade MAGIX_PICKAXE = new ToolSpade("magix_pickaxe",MATERIAL_MAGIX);
 	public static final ItemSpade MAGIX_AXE = new ToolSpade("magix_axe",MATERIAL_MAGIX);
+	
+	
+	
 
 	//Armor
+	
+	//magix
 	public static final Item MAGIX_HELMET = new ArmorBase("magix_helmet",ARMOR_MATERIAL_MAGIX,1,EntityEquipmentSlot.HEAD); 
 	public static final Item MAGIX_CHESTPLATE = new ArmorBase("magix_chestplate",ARMOR_MATERIAL_MAGIX,1,EntityEquipmentSlot.CHEST);
 	public static final Item MAGIX_LEGGINGS = new ArmorBase("magix_leggings",ARMOR_MATERIAL_MAGIX,2,EntityEquipmentSlot.LEGS);

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "crsdgftknght:magix_ingot"
+        }
+    },
+    "result": {
+        "item": "crsdgftknght:magix_chestplate",
+        "count": 1
+    }
+}
