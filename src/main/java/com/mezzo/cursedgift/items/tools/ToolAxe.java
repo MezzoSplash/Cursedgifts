@@ -11,7 +11,8 @@ import net.minecraft.item.ItemAxe;
 public class ToolAxe extends ItemAxe implements IHasModel {
 	public ToolAxe(String name, ToolMaterial material) 
 	{
-		super(material,9.0F,-3.2F);
+		//the second number adjusts attack speed according to (float + 4) the float can be negative as well as positive
+		super(material,9.0F,-3.0F);
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(CreativeTabs.MATERIALS);

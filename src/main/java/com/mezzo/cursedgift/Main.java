@@ -3,6 +3,7 @@ package com.mezzo.cursedgift;
 import com.mezzo.cursedgift.init.SmeltRecipes;
 import com.mezzo.cursedgift.proxy.CommonProxy;
 import com.mezzo.cursedgift.util.Reference;
+import com.mezzo.cursedgift.world.ModWorldGen;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -11,6 +12,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 
@@ -25,7 +27,7 @@ public class Main {
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)
 	{
-		
+		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
 	}
 	
 	@EventHandler

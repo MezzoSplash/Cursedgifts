@@ -5,6 +5,8 @@ import java.util.List;
 
 import com.mezzo.cursedgift.items.ItemBase;
 import com.mezzo.cursedgift.items.armor.ArmorBase;
+import com.mezzo.cursedgift.items.tools.ToolAxe;
+import com.mezzo.cursedgift.items.tools.ToolPickaxe;
 import com.mezzo.cursedgift.items.tools.ToolSpade;
 import com.mezzo.cursedgift.items.tools.ToolSword;
 import com.mezzo.cursedgift.util.Reference;
@@ -14,6 +16,8 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.item.ItemAxe;
+import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
 import net.minecraftforge.common.util.EnumHelper;
@@ -24,7 +28,7 @@ public class ModItems
 	public static final List<Item> ITEMS =new ArrayList<Item>();
 	
 	//ToolMaterials tab, adding new materials for tools
-	public static final ToolMaterial MATERIAL_MAGIX = EnumHelper.addToolMaterial("material_magix",3,2500, 10.0F, 3.5F, 10);
+	public static final ToolMaterial MATERIAL_MAGIX = EnumHelper.addToolMaterial("material_magix",4,2500, 10.0F, 3.5F, 10);
 	//material, harvestlevel, durability, speed, damage, enchantability(how much you get good enchants)
 	
 	//ArmorMaterials
@@ -53,8 +57,8 @@ public class ModItems
 	//magix
 	public static final ItemSword MAGIX_SWORD = new ToolSword("magix_sword",MATERIAL_MAGIX);
 	public static final ItemSpade MAGIX_SPADE = new ToolSpade("magix_shovel",MATERIAL_MAGIX);
-	public static final ItemSpade MAGIX_PICKAXE = new ToolSpade("magix_pickaxe",MATERIAL_MAGIX);
-	public static final ItemSpade MAGIX_AXE = new ToolSpade("magix_axe",MATERIAL_MAGIX);
+	public static final ItemPickaxe MAGIX_PICKAXE = new ToolPickaxe("magix_pickaxe",MATERIAL_MAGIX);
+	public static final ItemAxe MAGIX_AXE = new ToolAxe("magix_axe",MATERIAL_MAGIX);
 	
 	
 	
