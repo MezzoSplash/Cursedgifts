@@ -5,12 +5,15 @@ import java.util.List;
 
 import com.mezzo.cursedgift.items.ItemBase;
 import com.mezzo.cursedgift.items.armor.ArmorBase;
+import com.mezzo.cursedgift.items.food.FoodBase;
+import com.mezzo.cursedgift.items.food.FoodEffectBase;
 import com.mezzo.cursedgift.items.tools.ToolAxe;
 import com.mezzo.cursedgift.items.tools.ToolPickaxe;
 import com.mezzo.cursedgift.items.tools.ToolSpade;
 import com.mezzo.cursedgift.items.tools.ToolSword;
 import com.mezzo.cursedgift.util.Reference;
 
+import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -20,6 +23,7 @@ import net.minecraft.item.ItemAxe;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
+import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class ModItems 
@@ -52,7 +56,7 @@ public class ModItems
 	
 	
 	
-	//Tools
+//Tools
 	
 	//magix
 	public static final ItemSword MAGIX_SWORD = new ToolSword("magix_sword",MATERIAL_MAGIX);
@@ -63,12 +67,21 @@ public class ModItems
 	
 	
 
-	//Armor
+//Armor
 	
 	//magix
 	public static final Item MAGIX_HELMET = new ArmorBase("magix_helmet",ARMOR_MATERIAL_MAGIX,1,EntityEquipmentSlot.HEAD); 
 	public static final Item MAGIX_CHESTPLATE = new ArmorBase("magix_chestplate",ARMOR_MATERIAL_MAGIX,1,EntityEquipmentSlot.CHEST);
 	public static final Item MAGIX_LEGGINGS = new ArmorBase("magix_leggings",ARMOR_MATERIAL_MAGIX,2,EntityEquipmentSlot.LEGS);
 	public static final Item MAGIX_BOOTS = new ArmorBase("magix_boots",ARMOR_MATERIAL_MAGIX,1,EntityEquipmentSlot.FEET);
+
 	
+//Food
+	
+	
+	//for normal food like: public static final Item POISON_APPLE = new FoodBase("poison_apple",4,2.5F,false);
+	//for effect based food like: public static final Item POISON_APPLE = new FoodEffectBase("poison_apple",4,2.5F,false, new PotionEffect(MobEffects.POISON, 60*20,1, true/false,true/false));
+	
+	
+	public static final Item POISON_APPLE = new FoodEffectBase("poison_apple", 4, 2.5F, false, new PotionEffect(MobEffects.POISON, (60*20), 1 , false, true));
 }
