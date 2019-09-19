@@ -39,3 +39,8 @@ tile.orb_block.name=Block of Averageness
 tile.sunstone_ore_block.name=Sunstone Ore
 
 tile.moonstone_ore_block.name=Moonstone Ore
+
+
+
+//gui
+itemGroup.cursedgiftstab=Cursed Gifts

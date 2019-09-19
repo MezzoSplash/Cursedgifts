@@ -15,7 +15,7 @@ public class ToolSpade extends ItemSpade implements IHasModel
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MATERIALS);
+		setCreativeTab(Main.tabCURSEDGIFTS);
 		
 		ModItems.ITEMS.add(this);
 		
