@@ -4,7 +4,6 @@
 //ADD TO JSON
 
 item.orb.name=Orb of Ultimate Averageness
-item.test.name=Een testding
 item.magix_dust.name=Magix Dust
 item.unstable_average_matter.name=Unstable Average Matter
 item.concentrated_unstable_average_matter.name=Concentrated Unstable Average Matter
@@ -40,6 +39,7 @@ tile.sunstone_ore_block.name=Sunstone Ore
 
 tile.moonstone_ore_block.name=Moonstone Ore
 
+tile.research_table_block.name=Research Table
 
 
 //gui

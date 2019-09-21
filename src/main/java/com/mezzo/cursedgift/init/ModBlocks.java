@@ -6,6 +6,7 @@ import java.util.List;
 import com.mezzo.cursedgift.blocks.BlockBase;
 import com.mezzo.cursedgift.blocks.Moonstone_Ore_Block;
 import com.mezzo.cursedgift.blocks.Orb_Block;
+import com.mezzo.cursedgift.blocks.Research_Table_Block;
 import com.mezzo.cursedgift.blocks.Sunstone_Ore_Block;
 
 import net.minecraft.block.Block;
@@ -30,4 +31,7 @@ public class ModBlocks {
 	public static final Block SUNSTONE_ORE_BLOCK = new Sunstone_Ore_Block("sunstone_ore_block", Material.IRON);
 	
 	//zoals dit -->  public static final Block EENBLOK = new BlockClassNaam("eenblock", Material.?);
+	
+	
+	public static final Block RESEARCH_TABLE = new Research_Table_Block("research_table_block", Material.WOOD);
 }
