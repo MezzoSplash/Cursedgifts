@@ -1,5 +1,9 @@
 {
-    "variants": {
-        "normal": { "model": "crsdgftknght:research_table_block" }
+    "variants": 
+    {
+        "facing=north": { "model": "crsdgftknght:research_table_block" },
+        "facing=east": { "model": "crsdgftknght:research_table_block", "y": 90 },
+        "facing=south": { "model": "crsdgftknght:research_table_block", "y": 180 },
+        "facing=west": { "model": "crsdgftknght:research_table_block", "y": 270 }
     }
 }
